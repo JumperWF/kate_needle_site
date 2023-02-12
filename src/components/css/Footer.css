@@ -1,0 +1,20 @@
+.footer {
+    max-width: 1280px;
+    display: grid;
+    justify-content: center;
+    border-top: 2px solid gray;
+    width: 100vw;
+    padding: 1vw 0;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+}
+
+.social-icons {
+    height: 30px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    justify-content: center;
+    justify-items: center;
+}
