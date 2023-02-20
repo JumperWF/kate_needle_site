@@ -1,0 +1,48 @@
+.Brend{
+    margin: 25px auto;
+    padding: 0 10%;
+    max-width: 1280px;
+    display: grid;
+    grid-column-gap: 5%;  /* test mobile version than change*/
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.photo{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 30%;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+.Brend h1{
+    margin: 0 auto;
+}
+
+.Brend a {
+    text-decoration: none;
+    color: white; 
+    border: 1px grey solid;
+    border-radius: 15px;
+    background-color: grey;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Brend a:visited {
+    color: white;            /*поменять*/
+  }
+
+.Brend ul {
+    margin: 0;
+}
+
+.Brend .text{
+    margin: 10px 0;
+}

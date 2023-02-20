@@ -1,13 +1,21 @@
 .page{
-
+    display: grid;
+    grid-column-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    
+    max-width: 1280px;
+    margin: 25px auto;
     padding: 0 10%;
 }
 
 .mainPhoto {
-    float: right;
-    margin: 0 5px;
-}
+    justify-self: center;
+    order: 1;
 
-.mainText {
-    
 }
+h1{
+    margin: 0;
+}
+/* .mainText {
+    
+} */

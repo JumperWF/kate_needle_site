@@ -6,8 +6,8 @@ export default function Header() {
   return (
     
     <div className='header'>
-        <div className="namePerson"><a href='../pages/MainPage/MainPage.jsx'>Ekaterina Plesser</a></div>
-        <div className="headerMenu">
+        <div className="namePerson"><a href='/'>Ekaterina Plesser</a></div>
+
           <div className="navbar">
             <ul>
               <li><a href="/">Home</a></li>
@@ -23,7 +23,7 @@ export default function Header() {
               <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
-      </div>
+
     </div>
   )
 }

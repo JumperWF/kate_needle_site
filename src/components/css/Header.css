@@ -2,6 +2,7 @@
   max-width: 1280px;
   width: 100vw;
   display: grid;
+  grid-column-gap: 20%;
   justify-content: center;
   background-color: white;
   align-content: center;
@@ -9,10 +10,11 @@
   border-bottom: 2px gray solid;
 }
 
-.headerMenu {
+.navbar {
   position: sticky;
   top: 0;
 }
+
 
 .namePerson {
   text-align: center;
@@ -35,18 +37,18 @@
   cursor: pointer;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  li {
+ .navbar li {
     float: left;
   }
   
-  li a {
+  .navbar li a {
     display: block;
     color: black;               /*поменять*/
     text-align: center;
@@ -54,34 +56,36 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color: #494343;     /*поменять*/
+  .navbar li a:hover {
+    color: white;
+    background-color: grey;     /*поменять*/
+    border-radius: 15px;
   }
   
-  li ul {
+  .navbar li ul {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);       /*поменять*/
+
     z-index: 1;
   }
   
-  li:hover ul {
+  .navbar li:hover ul {
     display: block;
   }
   
-  li ul li {
+  .navbar li ul li {
     float: none;
   }
   
-  li ul li a {
+  .navbar li ul li a {
     display: block;
     color: black;
-    padding: 12px 16px;
+    padding: 12px 0px;
+    text-align: center;
     text-decoration: none;
   }
   
-  li ul li a:hover {
-    background-color: white;
+  .navbar li ul li a:hover {
+    background-color: grey;
+    color: white;
   }
